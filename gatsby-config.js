@@ -18,11 +18,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Just Memories Photography`,
+        short_name: `Just Memories`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        lang: 'pl',
+        display: `standalone`,
+        background_color: `#D6F9F5`,
+        theme_color: `#D6F9F5`,
         display: `minimal-ui`,
         icon: `src/images/logo.png`, // This path is relative to the root of the site.
       },
